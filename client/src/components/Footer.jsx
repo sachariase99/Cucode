@@ -12,7 +12,7 @@ const Footer = () => (
           className="w-[266px] h-[72.14px] object-contain"
         />
         <p className={`${styles.paragraph} mt-4 max-w-[312px] text-[#aaaaaad3]`}>
-          A new way to build your <span className="text-white">website.</span> Reliable and secure.
+          A new way to build your <span className="text-white">website.</span> Rnpmeliable and secure.
         </p>
       </div>
 
