@@ -1,6 +1,5 @@
 import styles from "../style";
 import { discount, robot } from "../assets";
-import GetStarted from "./GetStarted";
 
 const Hero = () => {
   return (
@@ -9,8 +8,8 @@ const Hero = () => {
         <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
           <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
           <p className={`${styles.paragraph} ml-2`}>
-            <span className="text-white">20%</span><span className="text-[#aaaaaad3]"> Discount On</span>{" "}
-            <span className="text-white">First</span><span className="text-[#aaaaaad3]"> Order</span>
+            <span className="text-white">20%</span><span className="text-[#aaaaaad3]"> Discount on</span>{" "}
+            <span className="text-white">first</span><span className="text-[#aaaaaad3]"> order</span>
           </p>
         </div>
 
@@ -29,7 +28,7 @@ const Hero = () => {
       </div>
 
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
-        <img src={robot} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
+        <img src={robot} alt="ai" className="w-[100%] h-[100%] relative z-[5]" />
 
         {/* gradient start */}
         <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />

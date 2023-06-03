@@ -11,7 +11,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
       <h4 className="font-poppins font-semibold text-white text-[18px] leading-[23.4px] mb-1">
         {title}
       </h4>
-      <p className="font-poppins font-normal text-dimWhite text-[16px] leading-[24px]">
+      <p className="font-poppins font-normal text-[#aaaaaad3] text-[16px] leading-[24px]">
         {content}
       </p>
     </div>
@@ -22,14 +22,8 @@ const Business = () =>  (
   <section id="features" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        You do the business, <br className="sm:block hidden" /> we’ll handle
-        the money.
+        Simplicity is the, <br className="sm:block hidden" /> ultimate sophistication
       </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        With the right credit card, you can improve your financial life by
-        building credit, earning rewards and saving money. But with hundreds
-        of credit cards on the market.
-      </p>
 
       <Button styles={`mt-10`} />
     </div>
